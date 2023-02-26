@@ -4,28 +4,29 @@
    background-color: #000000;
    font-family: "Poppins", sans-serif;
 }
-#textShadow {
+.navButton {
    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
-   color: transparent;
-   opacity: 0.21;
 }
-.buttonShadow, .footerShadow {
+
+.buttonShadow,
+.footerShadow {
    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
    color: transparent;
    position: relative;
 }
-.buttonShadow{
+.buttonShadow {
    height: 80px;
    width: 80px;
 }
-.footerShadow{
+.footerShadow {
    height: 60px;
    width: 60px;
 }
 .footerShadow::after {
    background-color: #101010;
 }
-.buttonShadow::after, .footerShadow::after {
+.buttonShadow::after,
+.footerShadow::after {
    content: "";
    position: absolute;
    top: 0;
@@ -34,18 +35,23 @@
    height: 100%;
    opacity: 0.9;
 }
-.buttonShadow::after{
+.buttonShadow::after {
    background-color: #000000;
 }
-.textBlue {
-   /* text-transform: uppercase; */
+.textBlue,
+a:hover {
    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(261.51deg, #36d1dc 0.1%, #5b86e5 92.07%);
-   /* background: #ffffff; */
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
    font-weight: 600;
-   /* text-fill-color: transparent; */
+}
+.navButton:hover {
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(45deg, #36d1dc 0.1%, #5b86e5 92.07%);
+   -webkit-text-fill-color: #36dc76;
+}
+.footerHover:hover {
+   -webkit-text-fill-color: #5b86e5;
 }
 #iconBg {
    background: rgba(23, 23, 23, 0.19);

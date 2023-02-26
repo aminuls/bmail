@@ -1,5 +1,4 @@
 import React from "react";
-import "./Navigation.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -62,10 +61,8 @@ const Navigation = () => {
                   <Nav.Link className="text-white fw-semibold px-3" href="#sign_in">
                      Sign in
                   </Nav.Link>
-                  <Nav.Link className="text-white fw-semibold px-3" href="#sign_up">
-                     <button className="btn btn-primary fw-semibold rounded-4 px-3 py-2 text-uppercase" id="navButton">
-                        Sign up
-                     </button>
+                  <Nav.Link className="text-white fw-semibold p-0 my-2 mx-3" href="#sign_up">
+                     <button className="fw-semibold rounded-4 px-3 py-2 text-uppercase navButton text-white">Sign up</button>
                   </Nav.Link>
                </Nav>
             </Navbar.Collapse>
