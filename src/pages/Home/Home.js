@@ -188,7 +188,7 @@ const Home = () => {
          {/* component part */}
          <Container className="pt-5">
             <div className="banner-card">
-               <Row xs={1} md={2} className="g-4 flex-row-reverse flex-md-row">
+               <Row xs={1} md={2} className="g-4 flex-column-reverse flex-md-row">
                   <Col>
                      <Card className="text-start bg-transparent text-light h-100">
                         <Card.Body className="d-flex flex-column justify-content-center">
@@ -242,7 +242,7 @@ const Home = () => {
             </div>
             {/*  */}
             <div className="banner-card">
-               <Row xs={1} md={2} className="g-4 flex-row-reverse flex-md-row">
+               <Row xs={1} md={2} className="g-4 flex-column-reverse flex-md-row">
                   <Col>
                      <Card className="text-start bg-transparent text-light h-100">
                         <Card.Body className="d-flex flex-column justify-content-center">
